@@ -13,14 +13,11 @@ Supported images include:
   
   2. Navigate to your downloads folder and run the shell script
     
-      For python 3.7: `bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh`
-
-      For python 2.7: `bash ~/Downloads/Anaconda2-2019.10-Linux-x86_64.sh`
-      
+      For python 3.7: `bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh`   
       
   3. Create the virtual environment in the cloned directory (see Cloning the Github Repo). Make sure evironment.yml file is in dir.
   
-      `conda PhyloPy create -f environment.yml python=2.7`
+      conda env create --name OrthoTracker --file=environments.yml --python=3.8
       
   4. Install the python dependencies
   
