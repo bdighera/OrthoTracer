@@ -17,7 +17,7 @@ Supported images include:
       
   3. Create the virtual environment in the cloned directory (see Cloning the Github Repo). Make sure evironment.yml file is in dir.
   
-      conda env create --name OrthoTracker --file=environments.yml --python=3.8
+      `conda env create --name OrthoTracker --file=environments.yml --python=3.8`
       
   4. Install the python dependencies
   
