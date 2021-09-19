@@ -1,5 +1,10 @@
 # OrthoTracer
-
+A phylogenetic analysis tool which leverages the NCBI RefSeq database API to illustrate patterns among large genomic datasets
+Supported images include:
+  - Protein domain mapping
+  - Genomic Synteny mapping across genomes or organisms
+  - Intron location/phase mapping
+  - Phylogenetic trees
 
 # Setting Up Conda Environment
 
