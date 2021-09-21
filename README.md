@@ -25,7 +25,7 @@ Supported images include:
       
   5. Activating the conda environement.
   
-      `conda activate PhyloPy`
+      `conda activate OrthoTracer`
 
 # Cloning the GitHub Repo
 
