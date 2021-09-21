@@ -27,14 +27,6 @@ Supported images include:
   
       `conda activate PhyloPy`
 
-# Downloading Executible Dependencies
-
-  1. Click [here](https://drive.google.com/file/d/1T2vvrFE4WY0ViiUXWEtoperxZn3z9DSS/view?usp=sharing) to download the dependencies
-  
-  2. Extract archive in GitHub Repo dir, should contain execs/ and records.db
-  
-  3. Change permissions in each executible file to "allow executing as program"
-
 # Cloning the GitHub Repo
 
   On GitHub, navigate to the main page of the repository.
