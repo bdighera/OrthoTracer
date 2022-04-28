@@ -185,7 +185,7 @@ if __name__ == '__main__':
 
     if cli['c'] != False:
         ot.scrapeRecords(path=cli['f'],
-                          db=cli['db'],
+                          db=cli['dB'],
                           linux=cli['l'],
                           GCsize=cli['s'],
                           apikey=cli['apikey'])
