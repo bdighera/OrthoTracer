@@ -177,7 +177,7 @@ class PhyloTreeConstruction(object):
 
             domainColor = [domainColors[domain] for domain in domains]
 
-            leafMotfis = [[int(domainStart[i]), int(domainEnd[i]), "<>", None, 12, "Black", domainColor[i], "arial|1|white|%s" % str(domainColor[i])] for i in range(domainLen)]
+            leafMotfis = [[int(domainStart[i]), int(domainEnd[i]), "<>", None, 12, "Black", domainColor[i], "arial|1|white|%s" % str(domainColor[i]).replace('|', '')] for i in range(domainLen)]
 
             domainMotifs.append(leafMotfis)
 
