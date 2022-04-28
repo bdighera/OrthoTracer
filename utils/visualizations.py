@@ -247,6 +247,10 @@ class PhyloTreeConstruction(object):
             if intronPhases and exonLengths != 'NONE':
 
                 IPH = ImageProcessingHandler()
+                
+                if intronPhases and exonLengths == 'NA':
+                    print('ERROR: This sequence was collected on MacOX where intron phase mapping is not supported. Try recollecting using Linux.')
+                    return None
 
 
                 intronPhases = ast.literal_eval(intronPhases)
